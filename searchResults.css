@@ -1,18 +1,10 @@
 p {
     color: #515151;
-    font-size: 4em;
+    font-size: 2em;
     font-family: "Georgia";
 }
-body {
-  background-color: white;
-}
-div {
-  margin-top: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 input[type=text], select {
-  width: 50%;
+  width: 10%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -21,7 +13,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 input[type=button] {
-  width: 6%;
+  width: 10%;
   background-color: #999999;
   color: white;
   padding: 12px 20px;
@@ -31,7 +23,7 @@ input[type=button] {
   cursor: pointer;
 }
  .dropdown1 {
-  width: 6%;
+  width: 10%;
   height: 36px;
   background-color: #999999;
   color: white;
@@ -42,7 +34,7 @@ input[type=button] {
   cursor: pointer;
 }
 .dropdown2 {
- width: 9%;
+ width: 10%;
  height: 36px;
  background-color: #999999;
  color: white;
@@ -51,4 +43,20 @@ input[type=button] {
  border: none;
  border-radius: 10px;
  cursor: pointer;
+}
+.split {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 50  
+}
+
+.right {
+  right: 0;
 }

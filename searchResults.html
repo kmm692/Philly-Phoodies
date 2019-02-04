@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+==============================
+page 2 - list of restaurants
+==============================
+-->
+
+<html>
+<head>
+  <meta http-aquiv="content-type" content="text/html; charset=uft-8" />
+<title> Search results </title>
+<style type="text/css">
+  @import url("searchResults.css");
+</style>
+<script type="text/javascript" src="searchBar.js"></script>
+</head>
+
+<body>
+  <div class="split right">
+    <p>Results</p>
+
+  </div>
+  <div class="split left">
+  <p>Philly Phoodies</p>
+  <input type="text" id="searchEntry" placeholder="Search" /></br>
+
+  <select class="dropdown1" name="price" id="price">
+    <option value="$">$</option>
+    <option value="$$">$$</option>
+    <option value="$$$">$$$</option>
+    <option value="$$$$">$$$$</option>
+  </select></br>
+
+  <select class="dropdown2" name="distance" id="distance">
+    <option value="1MileAway">1 Mile Away</option>
+    <option value="3MileAway">3 Miles Away</option>
+    <option value="5MileAway">5 Miles Away</option>
+    <option value="7MileAway">7 Miles Away</option>
+  </select></br>
+
+  <input type="button" id="enter" value="Enter" />
+</div>
+</body>
+
+</html>
